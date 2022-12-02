@@ -14,8 +14,7 @@
    }
   </style>
 <body> 
-	<center><button onclick="document.getElementById('id01').style.display='block'" class="btn">Open the Attack Constructor</button>
-	<h4>Time</h4></center>
+	<center><button onclick="document.getElementById('id01').style.display='block'" class="btn">Open the Attack Constructor</button></center>
 	<style>
 /* Модальный (фон) */
 .modal {
@@ -201,7 +200,6 @@ var vpn = prompt('У вас включен VPN или PROXY? (Yes - Y, No-N)', )
 var email = document.getElementById("email").value;
 var select = document.getElementById("select_");
 var value = select.value;
-let counter = document.querySelector('h4');
 if(email == "") {
 				errorno()
 				return false;
@@ -232,16 +230,6 @@ LV()
 if(value == "LVS") {
 alert("down")
 }
-let count = 1;
-
-setInterval(()=>{
-
-    counter.innerText = count;
-    count++
-    
-    if(count > 7) location.replace('https://fixxel.tk/bomber')
-    
-},1000)
 }
 </script>
 <script>
